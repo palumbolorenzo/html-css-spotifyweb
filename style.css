@@ -10,7 +10,7 @@ html {
 
 img {
     width: 100%;
-    
+    max-width: 177px;
 }
 
 ul {
@@ -59,11 +59,40 @@ body {
     background-color: #141922;
 }
 
+/* main {
+    position: fixed;
+} */
+
 .container {
     /* margin-top: 110px;
     margin-left: auto; */
     position: fixed;
-    inset: 0 0 230px 68px;
+    inset: 100px 0 0 230px;
+}
+
+.container-main {
+    /* margin-top: 5rem; */
+    /* position: fixed; */
+    inset: 100px 0 0 230px;
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-main h3 {
+    color: white;
+}
+
+.container-main p {
+    color: #A3A3A3;
+}
+
+.card {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container-list {
@@ -71,6 +100,7 @@ body {
     margin-right: 3rem; */
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     /* margin-top: 100px; */
 }
 
