@@ -57,24 +57,28 @@ header a {
 
 body {
     background-color: #141922;
-    width: calc(100vw - 230px);
 }
 
 .container {
-    margin-top: 110px;
-    margin-left: auto;
+    /* margin-top: 110px;
+    margin-left: auto; */
+    position: fixed;
+    inset: 0 0 230px 68px;
 }
 
 .container-list {
+    /* margin-left: calc(8rem + 230px);
+    margin-right: 3rem; */
     display: flex;
     justify-content: center;
+    /* margin-top: 100px; */
 }
 
 .container-list a {
     text-decoration: none;
     padding: 0 1rem;
     color: #A3A3A3;
-    
+    white-space: nowrap;
 }
 
 /* aside */
