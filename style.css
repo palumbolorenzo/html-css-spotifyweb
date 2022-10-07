@@ -224,6 +224,10 @@ li h4 {
         display: none;
     }
 
+    .aside a {
+        padding: 0;
+    }
+
     .none {
         display: none;
     }
